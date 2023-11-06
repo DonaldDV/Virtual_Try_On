@@ -20,7 +20,7 @@ const API_BASE_URL = 'https://api.media.io/v2';
 
 const VideoConverter = () => {
     
-    const data: RegularPage = converter.imageConverter;
+    const data: RegularPage = converter.videoConverter;
     const { title, description, meta_title } = data.frontmatter;
 
     const [sourceFormat, setSourceFormat] = useState("JPEG");
